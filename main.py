@@ -49,9 +49,9 @@ def omikuji():
             <head>
                 <title>Some HTML in here</title>
             </head>
-        <body>
-            <h1>Look ma! HTML!</h1>
-        </body>
-    </html>
+            <body>
+                <h1>Look ma! HTML!</h1>
+            </body>
+        </html>
     """
     return HTMLResponse(content=html_content, status_code=200)
