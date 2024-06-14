@@ -46,9 +46,9 @@ def omikuji():
     def index():
         html_content = """
         <html>
-        <head>
+            <head>
             <title>Some HTML in here</title>
-        </head>
+            </head>
         <body>
             <h1>Look ma! HTML!</h1>
         </body>
