@@ -45,7 +45,7 @@ def omikuji():
     @app.get("/index")
     def index():
         html_content = """
-    <html>
+        <html>
         <head>
             <title>Some HTML in here</title>
         </head>
