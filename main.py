@@ -53,5 +53,5 @@ def omikuji():
                 <h1>Look ma! HTML!</h1>
             </body>
         </html>
-    """
+        """
     return HTMLResponse(content=html_content, status_code=200)
